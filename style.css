@@ -1,0 +1,57 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+*{ 
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  
+}
+body{
+  padding: 40vh 5%;
+  background-color:#CC8181;
+  font-weight:100;
+  font-family:Noto Serif Bengali;
+color:white;
+}
+.capped-width{
+  max-width:600px;
+}
+h1{
+/*   padding:1rem; */
+  font-weight:300;
+  font-size:3rem;
+  margin-bottom:0.5rem;
+}
+h2{
+  font-weight:300;
+  margin-bottom:0.5rem;
+}
+/* Mail content */
+/* .contact{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: antiquewhite;
+    padding:1%;
+    margin:1%;
+} */
+a{
+  font-weight:100;
+  color:inherit;
+  display:inline-block;
+}
+nav a{
+/*   font-size:5rem; */
+  font-family:Noto Serif Bengali;
+  color:black;
+  display:inline-block;
+  padding-top:1rem;
+  padding-right:1rem;
+  text-decoration:none;
+}
+a:hover{
+  color:red;
+}
+a span{
+  padding-right:0.2rem;
+}
